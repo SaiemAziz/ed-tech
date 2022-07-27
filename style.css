@@ -1,0 +1,11 @@
+.maximum{
+    max-width: 1400px;
+}
+.minimum{
+    min-height: 500px;
+}
+.my-banner{
+    background-size: cover;
+    background-position: center; 
+    height: 75vh;
+}
