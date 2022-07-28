@@ -19,12 +19,10 @@
     <!-- SCRIPTS -->
     <script src="https://kit.fontawesome.com/4dde59035f.js" crossorigin="anonymous"></script>
   </head>
-  <body class="text-muted">
+  <body class="bg-light text-muted">
 
-    <!-- HEAD SECTION -->
-    
+    <!-- HEADER -->
     <section class="maximum mx-auto pt-2">
-      <!-- HEADER -->
       <header class="">
         <!-- NAVIGATION -->
         <nav
@@ -130,8 +128,8 @@
                 <p>
                   If you are looking for courses with a huge discount then you are at the right place. We have a wide range of courses that are designed to meet your needs.
                 </p>
-                <a class="text-decoration-none text-white" href="#courses"><div class="btn btn-info text-white my-2">
-                  <b>Get Started</b></a>
+                <a class="text-decoration-none text-white" href="#courses"><div class="btn btn-info text-white my-2 mt-sm-4">
+                  Get Started</a>
                 </div>
               </div>
             </div>
@@ -152,10 +150,9 @@
               >
                 <h1 class="my-3">Get Started Digital Learning</h1>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout
+                  If you are looking for courses with a huge discount then you are at the right place. We have a wide range of courses that are designed to meet your needs.
                 </p>
-                <a class="text-decoration-none text-white" href="#courses"><div class="btn btn-info text-white my-2">
+                <a class="text-decoration-none text-white" href="#courses"><div class="btn btn-info text-white my-2 mt-sm-4">
                   <b>Get Started</b></a>
                 </div>
               </div>
@@ -182,6 +179,7 @@
         </div>
       </header>
     </section>
+
     <!-- SECOND SECTION -->
     <section class="maximum mx-auto my-5">
       <h1 class="text-center mx-auto text-dark">Discover Our Popular Courses</h1>
@@ -273,13 +271,49 @@
         
         </div>
       </div>
-      <div class="d-none d-lg-flex ">
+      <div class=" d-flex ">
         <div class="btn btn-info text-white mx-auto">See More Courses</div>
       </div>
     </section>
+
+    <!-- BONUS SECTION -->
+    <section class="maximum mx-auto my-5 bg-success rounded-2">
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center p-3 p-sm-5">
+        <div class="text-center text-sm-start text-white">
+          <h1>Ready to join?</h1>
+          <p>Feel free to join our family by registering here. Its absolutely free.</p>
+        </div>
+          <div>
+            <button type="button" class="btn btn-light text-success px-4 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <h4>Register</h4>
+            </button>
+          </div>
+      </div>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Register Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Email</h5>
+                <input type="text">
+                <h5>Password</h5>
+                <input type="password">
+                <a class="text-decoration-none text-white d-block" href="#"><div class="btn btn-success text-white my-2 mt-sm-4">
+                  Create</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
     <!-- ACCORDION -->
     <section class="maximum px-4 mx-auto my-5">
-      <h1 class="text-center">Frequently Asked Questions</h1> 
+      <h1 class="text-center text-dark">Frequently Asked Questions</h1> 
       <p class="text-center w-75 mx-auto pb-5">There are some questions answered described below. Because i am trying my best to get 60 in my all assignments.</p>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item w-75 mx-auto border-0">
@@ -332,6 +366,31 @@
         </div>
       </div>
     </section>
+
+    <!-- HIDDEN SECTION -->
+    <section class="maximum mx-auto my-5 d-none d-lg-block">
+      <h1 class="text-center text-dark ">Trusted by over 800+ companies</h1>
+      <div class="row my-5 g-0 ms-2">
+        <div class="col">
+          <img src="images/company/company-1.png" alt="">
+        </div>
+        <div class="col">
+          <img src="images/company/company-2.png" alt="">
+        </div>
+        <div class="col">
+          <img src="images/company/company-3.png" alt="">
+        </div>
+        <div class="col">
+          <img src="images/company/company-4.png" alt="">
+        </div>
+        <div class="col">
+          <img src="images/company/company-5.png" alt="">
+        </div>
+        <div class="col">
+          <img src="images/company/company-6.png" alt="">
+        </div>
+      </div>
+    </section>
     
     <!-- FOOTER -->
     <footer class=" py-5 bg-black text-white text-center">
@@ -346,6 +405,9 @@
               <a target="_blank" class="px-3 text-decoration-none text-white" href="https://www.instagram.com/sayem_aziz_chowdhury/"><i class="fa-brands fa-instagram"></i></a>
             </div>
       </div>
+    </footer>
+
+    <!-- SCRIPTS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
